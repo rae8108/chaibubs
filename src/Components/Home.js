@@ -1,8 +1,13 @@
 import React from "react";
+import seasonalbanner from "../images/seasonalbanner.jpg"
 import "./Home.css"
 
 export default function Home() {
 return (
-    <p>home</p>
+    <div>
+    <div>
+        <img src={seasonalbanner} alt="seasonalbanner" className="seasonalbanner"/>
+    </div>
+</div>
 )
 }
