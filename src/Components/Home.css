@@ -2,3 +2,20 @@ img{
     max-width: 100%;
     height: auto;
 }
+
+.welcometitle {
+   font-size: 22px; 
+   margin-bottom: 18px;
+   letter-spacing: 1.6px;
+   text-transform: uppercase;
+   margin-top: 42px;
+}
+
+.welcomemessage {
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    line-height: 40px;
+    letter-spacing: 1.2px;
+    margin-bottom: 35px;
+}
