@@ -4,10 +4,10 @@ import bubblepic1 from "../images/bubblepic1.png";
 import bubblepic2 from "../images/bubblepic2.png";
 import bubblepic3 from "../images/bubblepic3.png";
 import bubblepic4 from "../images/bubblepic4.png";
-import bubblepic5 from "../images/bubblepic5.png";
+import bubblepic5 from "../images/bubblepic5.jpg";
 import bubblepic6 from "../images/bubblepic6.png";
-import bubblepic7 from "../images/bubblepic7.png";
-import bubblepic8 from "../images/bubblepic8.png";
+import bubblepic7 from "../images/bubblepic7.jpg";
+import bubblepic8 from "../images/bubblepic8.jpg";
 
 export default function Homegrid() {
     return (
