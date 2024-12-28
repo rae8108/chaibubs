@@ -1,0 +1,110 @@
+.carousel-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: black;
+  }
+  
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    color: black;
+  }
+  
+  .text-section h1 {
+    font-size: 1.6em;
+    margin-bottom: 7px;
+  }
+  
+  .text-section p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .carousel-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .carousel {
+    position: relative;
+    max-width: 800px; 
+    width: 100%;
+    overflow: hidden; 
+    border-radius: 8px; 
+  }
+  
+  .carousel__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .carousel__button--left {
+    left: 10px;
+  }
+  
+  .carousel__button--right {
+    right: 10px;
+  }
+  
+  .carousel__track-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+  
+  .carousel__track {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style-type: none;
+  }
+  
+  .carousel__slide {
+    min-width: 100%; 
+    text-align: center;
+  }
+  
+  .carousel__slide img {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+  }
+  
+  .carousel-title {
+    display: block;
+    margin: 0 auto;
+    letter-spacing: 1.6px;
+    text-transform: uppercase
+  }
