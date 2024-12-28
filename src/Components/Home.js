@@ -1,5 +1,5 @@
 import React from "react";
-import seasonalbanner from "../images/seasonalbanner.jpg"
+import seasonalbanner from "../images/seasonalbanner.jpeg"
 import Homegrid from "./Homegrid";
 import "./Home.css"
 
