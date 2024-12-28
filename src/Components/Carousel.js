@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './Carousel.css';  
-import image1 from '../images/scmedia1.jpg';
-import image2 from '../images/scmedia2.jpg';
-import image3 from '../images/scmedia3.jpg';
-import image4 from '../images/scmedia4.jpg';
+import image1 from '../images/scmedia/scmedia1.jpg';
+import image2 from '../images/scmedia/scmedia2.jpg';
+import image3 from '../images/scmedia/scmedia3.jpg';
+import image4 from '../images/scmedia/scmedia4.jpg';
 
 const images = [image1, image2, image3, image4]; 
 
