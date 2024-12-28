@@ -1,6 +1,8 @@
 import React from "react";
-import seasonalbanner from "../images/seasonalbanner.jpeg"
+import seasonalbanner from "../images/banner/seasonalbanner.jpeg"
 import Homegrid from "./Homegrid";
+import Featured from "./Featured";
+import Footer from "./Footer";
 import "./Home.css"
 
 import GridLayout from "./Gridlayout";
@@ -20,6 +22,12 @@ return (
   </div>
   <div>
     <GridLayout/>
+  </div>
+  <div>
+    <Featured />
+  </div>
+  <div>
+    <Footer />
   </div>
 </div>
 )
