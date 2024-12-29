@@ -1,6 +1,8 @@
 .grid-container {
     padding: 30px 20px; 
     background-color: #BEE6CE;
+    border-top: 2px solid #114F29;
+    border-bottom: 2px solid #114F29 ;
 }
 
 .grid {
