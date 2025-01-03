@@ -4,6 +4,8 @@ import Home from "../Components/Home/Home";
 import Menu from "../Components/Menu/Menu";
 import Products from "../Components/Products/Products"
 import Locations from "../Components/Locations/Locations";
+import Specials from '../Components/Menu/Specials';
+import Fruitteas from "../Components/Menu/Fruitteas"
 import './Nav.css';
 
 export default function Nav() {
@@ -23,6 +25,8 @@ export default function Nav() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="/special" element={<Specials />} /> 
+        <Route path="/fruitteas" element={<Fruitteas />} /> 
         <Route path="/products" element={<Products />} />
         <Route path="/locations" element={<Locations />} />
       </Routes>
