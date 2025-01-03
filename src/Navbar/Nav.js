@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route, NavLink } from 'react-router-dom';
-import Home from "../Components/Home";
-import Menu from "../Components/Menu";
-import Products from "../Components/Products"
-import Locations from "../Components/Locations";
+import Home from "../Components/Home/Home";
+import Menu from "../Components/Menu/Menu";
+import Products from "../Components/Products/Products"
+import Locations from "../Components/Locations/Locations";
 import './Nav.css';
 
 export default function Nav() {
