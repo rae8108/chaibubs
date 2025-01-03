@@ -1,11 +1,10 @@
 import React from "react";
-import seasonalbanner from "../images/banner/seasonalbanner.jpeg"
+import seasonalbanner from "../../images/banner/seasonalbanner.jpeg"
 import Homegrid from "./Homegrid";
 import Featured from "./Featured";
-import Footer from "./Footer";
-import "./Home.css"
-
+import Footer from "../Footer/Footer";
 import GridLayout from "./Gridlayout";
+import "./Home.css"
 
 export default function Home() {
 return (

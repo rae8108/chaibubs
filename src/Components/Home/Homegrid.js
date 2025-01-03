@@ -1,13 +1,13 @@
 import React from "react";
 import "./Homegrid.css"
-import bubblepic1 from "../images/bubblepic/bubblepic1.png";
-import bubblepic2 from "../images/bubblepic/bubblepic2.png";
-import bubblepic3 from "../images/bubblepic/bubblepic3.png";
-import bubblepic4 from "../images/bubblepic/bubblepic4.png";
-import bubblepic5 from "../images/bubblepic/bubblepic5.jpg";
-import bubblepic6 from "../images/bubblepic/bubblepic6.png";
-import bubblepic7 from "../images/bubblepic/bubblepic7.jpg";
-import bubblepic8 from "../images/bubblepic/bubblepic8.jpg";
+import bubblepic1 from "../../images/bubblepic/bubblepic1.png";
+import bubblepic2 from "../../images/bubblepic/bubblepic2.png";
+import bubblepic3 from "../../images/bubblepic/bubblepic3.png";
+import bubblepic4 from "../../images/bubblepic/bubblepic4.png";
+import bubblepic5 from "../../images/bubblepic/bubblepic5.jpg";
+import bubblepic6 from "../../images/bubblepic/bubblepic6.png";
+import bubblepic7 from "../../images/bubblepic/bubblepic7.jpg";
+import bubblepic8 from "../../images/bubblepic/bubblepic8.jpg";
 
 export default function Homegrid() {
     return (
