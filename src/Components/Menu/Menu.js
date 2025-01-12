@@ -11,8 +11,8 @@ return (
             <div className="menu-grid">
                <p className="speciallink"><NavLink to="/special">Specials</NavLink></p>
                <p className="speciallink"><NavLink to="/fruitteas">Fruit Teas</NavLink></p>
-               <p>Milk Teas</p>
-               <p>Toppings</p>
+               <p className="speciallink"><NavLink to="/milkteas">Milk Teas</NavLink></p>
+               <p className="speciallink"><NavLink to="/toppings">Toppings</NavLink></p>
             </div>
         </div>
         <div>
