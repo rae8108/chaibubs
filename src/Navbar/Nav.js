@@ -6,6 +6,8 @@ import Products from "../Components/Products/Products"
 import Locations from "../Components/Locations/Locations";
 import Specials from '../Components/Menu/Specials';
 import Fruitteas from "../Components/Menu/Fruitteas"
+import Milkteas from '../Components/Menu/Milkteas';
+import Toppings from '../Components/Menu/Toppings';
 import './Nav.css';
 
 export default function Nav() {
@@ -27,6 +29,8 @@ export default function Nav() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/special" element={<Specials />} /> 
         <Route path="/fruitteas" element={<Fruitteas />} /> 
+        <Route path="/milkteas" element={<Milkteas />} /> 
+        <Route path="/toppings" element={<Toppings />} /> 
         <Route path="/products" element={<Products />} />
         <Route path="/locations" element={<Locations />} />
       </Routes>
