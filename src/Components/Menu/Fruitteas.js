@@ -11,7 +11,7 @@ import "./Fruitteas.css"
 export default function Fruitteas() {
     return (
         <div>
-        <h3 className="fruit">Fruit Tea</h3>
+        <h3 className="fruit">Fruit Teas</h3>
         <div className="fruitteas-container">
             <div className="fruitteas-grid">
                 <div>
