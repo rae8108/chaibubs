@@ -1,0 +1,48 @@
+h3 {
+    font-size: 39px;
+    letter-spacing: 0.8px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.milkteas-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Two columns layout */
+    gap: 18px;
+    align-items: center;
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.milkteas-grid > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the content */
+    justify-content: center;
+}
+
+.milkteas-grid img {
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Keeps the aspect ratio intact */
+    object-fit: cover; /* Optionally, ensures the image covers the space without distortion */
+    border-radius: 50%;
+}
+
+.milkteas-grid p {
+    margin-top: 10px; /* Adds space between image and text */
+    text-align: center; /* Centers the text */
+}
+
+
+@media (max-width: 868px) {
+    .milkteas-grid {
+        grid-template-columns: repeat(2, 1fr);  
+    }
+}
+
+@media (max-width: 580px) {
+    .milkteas-grid {
+        grid-template-columns: 1fr;  
+    }
+}
