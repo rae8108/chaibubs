@@ -1,0 +1,43 @@
+.locations-grid-container {
+
+}
+
+.locations-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        font-size: 35px;
+        text-align: left;
+}
+
+.location-background {
+    background-color: #E3FFEE;
+    padding-bottom: 10px;
+    line-height: 25px;
+    padding-left: 14px;
+}
+
+.other-background {
+    padding-bottom:  10px;
+    line-height: 25px;
+    padding-left: 14px;
+}
+
+.l-font {
+    color: #3B3B3B;
+}
+
+
+iframe {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
+@media (max-width: 868px) {
+    .locations-grid {
+        grid-template-columns: 1fr;  
+        grid-template-rows: repeat(2, 1fr);  
+    }
+}
