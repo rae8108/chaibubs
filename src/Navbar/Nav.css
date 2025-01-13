@@ -39,3 +39,7 @@ color:#7bbd91;
    letter-spacing: 0.3px;
    font-size: 15px;
   }
+
+  .name a:hover {
+    color: #569072;
+  }

@@ -15,7 +15,7 @@ export default function Nav() {
     <div>
       <div className="Nav">
         <div>
-          <small className="name">chaibubs</small>
+          <small className="name"><NavLink to="/">chaibubs</NavLink></small>
         </div>
         <nav>
           <div><NavLink to="/">Home</NavLink></div>
