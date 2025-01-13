@@ -7,7 +7,7 @@ h3 {
 
 .milkteas-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Two columns layout */
+    grid-template-columns: repeat(3, 1fr);
     gap: 18px;
     align-items: center;
     max-width: 1250px;
@@ -18,20 +18,20 @@ h3 {
 .milkteas-grid > div {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers the content */
+    align-items: center; 
     justify-content: center;
 }
 
 .milkteas-grid img {
-    max-width: 100%; /* Makes the image responsive */
-    height: auto; /* Keeps the aspect ratio intact */
-    object-fit: cover; /* Optionally, ensures the image covers the space without distortion */
+    max-width: 100%; 
+    height: auto; 
+    object-fit: cover; 
     border-radius: 50%;
 }
 
 .milkteas-grid p {
-    margin-top: 10px; /* Adds space between image and text */
-    text-align: center; /* Centers the text */
+    margin-top: 10px; 
+    text-align: center; 
 }
 
 
